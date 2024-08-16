@@ -6,6 +6,15 @@ ALL Local, running different kinds of LLM implementations locally.
 
 This Streamlit app showcases the integration of Ollama running the Llama3 8B model, demonstrating various capabilities of large language models in a user-friendly interface.
 
+## UI
+
+![GeneralChat](img/GeneralChat.png)
+![Guardrail](img/Guardrail.png)
+![playground](img/playground.png)
+![graphRAG](img/graphRAG.png)
+![RAG](img/RAG.png)
+
+
 ## Setup Instructions
 
 1. Install Docker on your system.
@@ -73,13 +82,6 @@ python -m streamlit run Home.py
 
 Navigate through different pages using the sidebar to explore various features and capabilities of the Llama3 model.
 
-## UI
-
-![GeneralChat](img/GeneralChat.png)
-![Guardrail](img/Guardrail.png)
-![playground](img/playground.png)
-![graphRAG](img/graphRAG.png)
-![RAG](img/RAG.png)
 
 
 ## Next Steps
@@ -98,6 +100,14 @@ Navigate through different pages using the sidebar to explore various features a
 ## 繁體中文
 
 這個 Streamlit 應用程式展示了運行 Llama3 8B 模型的 Ollama 整合，通過用戶友好的界面演示大型語言模型的各種功能。
+
+## 界面
+
+![通用聊天](img/GeneralChat_CHI.png)
+![帶有防護的聊天](img/Guardrail_CHI.png)
+![聊天遊樂場](img/playground_CHI.png)
+![GraphRAG](img/graphRAG_CHI.png)
+![RAG](img/RAG_CHI.png)
 
 ### 設置說明
 
@@ -164,13 +174,6 @@ python -m streamlit run Home.py
 
 使用側邊欄導航不同頁面，探索 Llama3 模型的各種特性和功能。
 
-## 界面
-
-![通用聊天](img/GeneralChat_CHI.png)
-![帶有防護的聊天](img/Guardrail_CHI.png)
-![聊天遊樂場](img/playground_CHI.png)
-![GraphRAG](img/graphRAG_CHI.png)
-![RAG](img/RAG_CHI.png)
 
 ## 下一步
 - 將不同頁面中相似的組件解耦成中央化函數，以進行管理和維護
